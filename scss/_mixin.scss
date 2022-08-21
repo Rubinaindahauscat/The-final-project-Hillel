@@ -1,0 +1,25 @@
+@mixin font-primary($size: false, $lh: false, $color: false, $weight: false, $family: false, $style: false) {
+	@if $size {
+		font-size: $size;
+	}
+
+	@if $color {
+		color: $color;
+	}
+
+	@if $weight {
+		font-weight: $weight;
+	}
+
+	@if $lh {
+		line-height: $lh;
+	}
+
+	@if $family {
+		font-family: $font-family;
+	}
+
+	@if $style {
+		font-style: $style;
+	}
+}
